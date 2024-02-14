@@ -1,0 +1,36 @@
+- MaterialApp
+  - GetMaterialApp
+    - CalculateScreen (Scaffold)
+      - AppBar
+      - Padding
+        - Card
+          - ClipRRect
+            - BackdropFilter
+              - Padding
+                - Column
+                  - TextField (Height)
+                  - SizedBox
+                  - TextField (Weight)
+                  - SizedBox
+                  - Row
+                    - ElevatedButton (Info)
+                    - Spacer
+                    - ElevatedButton (Calculate)
+    - ResultScreen (Scaffold)
+      - AppBar
+      - Container
+        - Center
+          - Column
+            - Text (BMI Result)
+            - SizedBox
+            - Text (BMI Category)
+    - InfoPage (Scaffold)
+      - AppBar
+      - Center
+        - Padding
+          - Card
+            - ClipRRect
+              - BackdropFilter
+                - Padding
+                  - Column
+                    - Image (BMI Categories)
